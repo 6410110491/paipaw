@@ -1,0 +1,38 @@
+.banner_2{
+    display: flex;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+}
+
+.img_banner_2{
+    min-width: 100%;
+    height: 100%;
+    
+}
+
+.img_banner_2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.video_player{
+    min-width: 100%;
+    border-radius: 15px;
+    height: 20rem;
+}
+
+.img_show{
+    width: 100%;
+    height: 90%;
+    object-fit: scale-down;
+    top: 50%;
+    transform: translate(0 , -50%);
+    position: absolute;
+}
+
+

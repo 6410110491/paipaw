@@ -1,0 +1,68 @@
+.Container{
+    width: 100%;
+    height: fit-content;
+    margin-top: 5rem;
+}
+
+.banner{
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    transition: all 0.2s ease-in-out;
+}  
+
+.img_banner{
+    min-width: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.title{
+    color: white;
+}
+
+.img_slide{
+    position: relative;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.title_letter{
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.under_text{
+    font-size: 1.5rem;
+    font-family: "Athiti";
+}
+
+.p_yellow{
+    color: #ffae00;
+}
+
+@media only screen and (min-width : 1180px) {
+    .img_slide{
+        height: 25rem;
+    }
+
+    .title_letter{
+        font-size: 6rem;
+    }
+
+    .under{
+        margin-top: 3rem;
+    }
+
+    .under_text{
+        font-size: 2rem;
+        font-family: "Athiti";
+    }
+}

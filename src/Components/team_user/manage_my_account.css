@@ -1,0 +1,29 @@
+.head {
+    text-align: center;
+    margin-top: 2rem;
+}
+.check {
+    margin-top: 2rem;
+}
+.arai_sak_yang {
+    margin-top: 2rem;
+    font-size: 1rem;
+    display: flex;
+    grid-gap: 0.3rem;
+    align-items: center;
+}
+
+.link_signin{
+    text-decoration: none;
+    color: #3fc296;
+}
+
+.bg{
+    filter: opacity(10%);
+    width: 30rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}

@@ -1,0 +1,30 @@
+.head-login {
+    text-align: center;
+    margin-top: 2rem;
+}
+.link_signup{
+    text-decoration: none;
+    color: #3fc296;
+}
+.link-to-signup {
+    margin-top: 2rem;
+    font-size: 1rem;
+    display: flex;
+    grid-gap: 0.3rem;
+    align-items: center;
+}
+.forgotlink {
+    text-decoration: none;
+    color: #3fc296;
+    margin-top: 3rem;
+}
+
+.bg{
+    filter: opacity(10%);
+    width: 30rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
